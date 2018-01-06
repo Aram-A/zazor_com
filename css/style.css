@@ -1,0 +1,725 @@
+/* FONTS */
+
+.tel span, .basket, .find-select, .search, .product-price, .product-price span, footer {
+	font-family: Arial, sans-serif;
+}
+
+nav a, aside span, aside li,aside label, .product-title, .product-subtitle, .login,
+.find-tire span, .find-tire label, .find-disk li, .find-disk span {
+	font-family: Lucida Sans Unicode, sans-serif;
+}
+
+.wrapper .find-title, .find-subtitle  {
+	font-family: Arial Black, sans-serif;
+}
+
+/*---------------------*/
+
+.tel, span, .login, .nav, form,ul, nav li,.basket, .find-car, .find-tire, .find-disk,.find-car div, 
+.find-disk div, aside, main, .catalog-item div, .brand-item div, .product, footer li, .login a  {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.wrapper, header, nav, .find {
+	margin: 0 auto;
+}
+
+header, nav, .find {
+	width: 909px;
+}
+
+a {
+	text-decoration: none;
+}
+
+label {
+	display: block;
+}
+
+/* WRAPPER */
+
+.background {
+	background-color: #fff;
+	min-width: 1000px;
+}
+
+.wrapper {
+	width: 912px;
+}
+
+/* HEADER */
+
+header > img  {
+	width: 909px;
+	height: 237px;
+}
+
+.tel img {
+	margin: 22px 0 8px 7px;
+}
+
+.tel span {
+	font-size: 18px;
+	color: #5e696d;
+	margin: 24px 0 0 0;
+	letter-spacing: 0.4px;
+}
+	
+.login {
+	margin: 17px 12px 6px;
+	width: 495px;
+	height: 26px;
+	background: linear-gradient(to bottom, #206988,#114165 59%,#0c3256);
+	box-shadow: 1.5px 2.598px 3px 0px rgb( 150, 150, 150 );
+	border-radius: 4px;
+}
+	
+.login img {
+	margin: 5px -1px 0px 7px;
+}
+	
+.login input {
+	width: 109px;
+	height: 14px;
+	padding: 0 0px 1px 3px;
+	font-size: 11px;
+	margin: 4px 2px 0 0px;
+	border: 1px solid #9ba1a3;
+	border-radius: 2px;
+	letter-spacing: 0.5px;
+	color: #97a2a6;
+}
+
+.login a {
+	color: #fff;
+	font-size: 11px;
+	margin: 8px 5px 0 0;
+	letter-spacing: -0.2px;
+}
+
+.login a:nth-child(3)::after {
+	content: "";
+	width: 2px;
+	height: 10px;
+	background: #d3d8de;
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 4px;
+}
+
+.login a:last-child {
+	color: #bfbfbf;
+	text-decoration: underline;
+	margin: 8px 0px 0 11px;
+	letter-spacing: 0.6px;
+}
+
+.nav {
+	width: 74px;
+	height: 19px;
+	background-color: #fff;
+	border: 1px solid #c1c8cb;
+	border-radius: 10px;
+	margin-top: 19px;
+	box-shadow: 1px 2px 1px #dde1e2;
+}
+
+.nav img {
+	margin: 2px -5px 0 9px;
+}
+
+
+/* NAV */
+
+nav {
+	height: 33px;
+	background: linear-gradient(to top, #000 0%, #000 75%, #576068 100%);
+	border: 1px solid #0d1642;
+	border-radius: 5.6px;
+	box-shadow: 3px 1px 4px 0px #000;
+	margin-top: 3px;
+}
+
+nav ul {
+	line-height: 33px;
+	letter-spacing: -20px;
+}
+
+nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #b1bcc0;
+	/* background-color: red; */
+	border-radius: 11.5px;;
+	letter-spacing: -1px;
+}
+
+nav li:first-child a {
+	margin-left: 126px;
+	padding: 3px 20px 1px 20px;
+}
+
+nav li:nth-child(2) a {
+	padding: 3px 15px 1px 15px;
+}
+
+nav li:nth-child(3) a {
+	padding: 3px 16px 1px 16px;
+}
+
+nav li:nth-child(4) a {
+	padding: 3px 15px 1px 15px;
+}
+nav li:last-child a {
+	padding: 3px 11px 1px 11px;
+}
+
+nav a:hover {
+	color: #fff;
+	background: linear-gradient(to bottom, #206988, #114165 59%, #0c3256 100%);
+}
+
+.basket img {
+	margin: 7px 0 0 57px;
+}
+
+.basket span {
+	font-size: 11px;
+	color: #929b9f;
+	margin-top: 10px;
+	margin-left: 2px;
+	letter-spacing: 0.5px;
+}
+.basket .item, .basket .price {
+	font-size:12px;
+	color: #0d5a8f;
+}
+
+.basket .item {
+	margin-left: -3px;
+	margin-right: 7px;
+}
+
+.basket .price {
+	margin-left: 6px;
+}
+
+/* FIND */
+
+.find-car, .find-tire, .find-disk {
+	border: 1px solid #9c9c9d;
+	border-radius: 18px;
+	box-shadow: 2.5px 3.4px 5px 0px rgba( 150, 150, 150,0.75);
+}
+
+.find-car {
+	width: 412px;
+	height: 132px;
+	margin: 11px 0 0 5px;
+}
+
+.find-tire {
+	width: 191px;
+	height: 135px;
+	margin: 10px 0 0 10px;
+}
+
+.find-disk {
+	width: 266px;
+	height: 134px;
+	margin: 9px 0 0 6px;
+}
+
+.wrapper .find-title {
+	color: #114165;
+	font-size: 12px;
+	letter-spacing: normal;
+}
+
+.find-subtitle {
+	color: #154468;
+	font-size: 10px;
+}
+
+.find-car .find-subtitle {
+	margin: 4px 0 0 19px;
+	letter-spacing: 0.2px;
+}
+
+.find-car .find-title {
+	margin: 1px 50px 0 61px;
+	letter-spacing: 0.3px;
+}
+
+.find-car span:nth-child(3) {
+	margin-top: 2px;
+}
+
+.find-tire .find-title {
+	margin:  3px 0 0 9px;
+}
+
+.find-disk .find-title {
+	margin: 4px 0 0 9px;
+	letter-spacing: 0.8px;
+}
+
+.find-car ul {
+	margin-left: 16px;
+}
+
+.find-select, .find-tire span, .find-disk li {
+	font-size: 10px;
+	color: #000;
+letter-spacing: 0.4px;
+}
+
+.find-select span {
+	font-size: 9px;
+	color: #77858b;
+	vertical-align: middle;
+}
+
+.find-select:first-child {
+	margin-top: 10px;
+}
+
+.find-select:nth-child(2) {
+	margin-top: 6px;
+}
+
+.find-select:nth-child(3) {
+	margin-top: 2px;
+}
+
+.find-select:last-child {
+	margin-top: 6px;
+}
+
+.find-select:first-child span {
+	font-size: 8px;
+}
+
+.find-select:nth-child(2) span {
+	margin-top: -3px;
+}
+
+.find-select:nth-child(3) span {
+	margin-top: -3px;
+}
+
+.find-car div {
+	width: 102px;
+}
+
+select {
+	height: 17px;
+	border-top: 2px solid #b0b0b0;
+	border-left: 2px solid #b0b0b0;
+	border-right: 1px solid #c3c3c3;
+	border-bottom: #fff;
+	font-size: 11px;
+}
+
+.find-car select {
+	width: 102px;
+	margin: 4px 0px 1px -2px;
+}
+
+.find-car div select:nth-child(3) {
+	width: 58px;
+}
+
+.find-tire div span {
+	margin: 14px 0 0 12px;
+}
+
+.find-tire div select {
+	margin: 6px 3px 0 2px;
+	width: 51px;
+}
+
+.find-tire span:nth-child(3) {
+	margin: 11px 0 0 45px;
+}
+
+.find-tire select:nth-child(4) {
+	margin: 6px 0 0 4px;
+	width: 44px;
+}
+
+.find-tire span {
+	margin: 6px 0 0 13px;
+}
+
+.find-tire div:nth-child(7) {
+	margin: -9px 0px 0 54px;
+}
+
+.find-tire label {
+	color: #000;
+	font-size: 12px;
+}
+
+.find-tire   input{
+	margin: 1px 2px 0 2px;
+	vertical-align: middle;
+}
+
+.find-disk ul {
+	width: 87px;
+	margin: 25px 0 0 -99px;
+}
+
+.find-disk li span {
+	font-size: 9px;
+	color: #77858b;
+	letter-spacing: 0.6px;
+	line-height: 10px;
+}
+
+.find-disk  li:nth-child(2) {
+	margin-top: 6px;
+}
+
+.disk-select {
+	width: 60px;
+	margin-top: 21px;
+}
+
+.find-disk select {
+	width: 57px;
+}
+
+.disk-select select:nth-child(2) {
+	margin: 14px 0 15px 0;
+	width: 51px;
+}
+
+.disk-select:after {
+	content: "";
+	width: 1px;
+	height: 106px;
+	background: #bdc6ca;
+	margin: -96px 0 0 69px;
+	position: absolute;
+}
+
+.find-disk span {
+	font-size: 9px;
+	color: #000;
+	letter-spacing: 1.2px;
+}
+
+.find-disk span span {
+	font-size: 8px;
+	color: #77858b;
+	letter-spacing: 0.6px;
+}
+
+.disk-select-sub {
+	margin: 7px 0 0 15px;
+	width: 80px;
+}
+
+.disk-select-sub select:nth-child(2) {
+	margin: 3px 0 8px 2px;
+}
+
+.disk-select-sub select:nth-child(4) {
+	margin: 2px 0 0 2px;
+}
+
+
+.find .search {
+	text-align: right;
+	font-size: 14px;
+	text-decoration: underline;
+	color: #154467;
+	letter-spacing: 0.3px;
+	width: 100%;
+	font-style: italic;
+}
+
+.find-car div:last-child {
+	margin: 4px 0 0 -19px;
+}
+
+.find-tire div:last-child {
+	margin: -3px 0 0 -17px;
+}
+
+.find-disk div:last-child {
+	margin: -1px 0 0 -18px;
+}
+
+/* ASIDE */
+
+.catalog, .brand {
+	width: 180px;
+	height: 24px;
+	border: 1px solid #8b979c;
+	border-radius: 13px;
+	box-shadow: 1.5px 2.6px 3px 0px rgba( 150, 150, 150,0.75 );
+}
+
+.catalog span, .catalog-item span {
+	color: #114165;
+}
+
+.catalog span, .brand span {
+	text-transform: uppercase;
+	font-size: 14px;
+}
+	
+.brand span, .brand-item span {
+	color: #0c3256;
+}
+	
+.catalog img, .brand img {
+	margin: 1px 3px 0px 3px;
+}
+
+.catalog {
+	margin: 17px 0 14px 0;
+}
+
+.brand {
+	margin: 15px 0 15px 4px;
+}
+
+.catalog span {
+	margin: 6px 0 0 -5px;
+	letter-spacing: -0.8px;
+}
+
+.brand span {
+	margin: 6px 0 0 -1px;
+	letter-spacing: -0.2px;
+}
+
+.catalog-item {
+	width: 148px;
+	height: 26px;
+	border: 1px solid #79878d;
+	border-radius: 13px;
+	margin-left: 2px;
+}
+
+.catalog-item div, .brand-item div  {
+	width: 12px;
+	height: 12px;
+	border: 5px solid #114165;
+	border-radius: 13px;
+	margin: 2px 0 0 4px;
+}
+
+.catalog-item span {
+	margin: 8px 0 0 -2px;
+}
+
+.brand-item span {
+	margin:	6px 0 0 -1px;
+}
+
+
+
+.catalog-item span, .brand-item span {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: -0.6px;
+}
+
+
+aside li {
+	list-style-type: circle;
+	color: #465961;
+	margin: 4px 0px 10px 58px;	
+}
+
+aside li a {
+	color: #465961;
+	font-size: 13px;
+	margin-left: -10px;
+	letter-spacing: -0.2px;
+}
+
+aside li:hover a {
+	color: #0c3256;
+	text-decoration: underline;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: -0.5px;
+}
+
+aside div:nth-child(4) {
+	margin-top: -8px;
+}
+
+aside div:nth-child(6) {
+	margin-top: -9px;
+}
+
+.brand-item {
+	width: 134px;
+	height: 26px;
+	border: 1px solid #79878d;
+	border-radius: 13px;
+	margin-left: 19px;
+}
+
+aside form div:nth-child(5) {
+	margin-top: 11px;
+}
+
+label, input[type=button] {
+	cursor: pointer;
+}
+
+aside label {
+	color: #465961;
+	font-size: 13px;
+	margin: 6px 0px 0px 25px;
+	letter-spacing: -0.2px;
+}
+
+aside input[type=checkbox]{
+	margin-right: 12px;
+	vertical-align: middle;
+}
+
+aside form div:nth-child(7) {
+	margin-top: 11px;
+}
+
+input[type=button] {
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 0.8px;
+	color: #e5e9ea;
+	width: 82px;
+	margin: 19px 0 0 28px;
+	height: 26px;
+	background: linear-gradient(to bottom, #206988, #0c3256);
+	border: none;
+	border-radius: 15px;
+	box-shadow: 2px 2px 2px #a7abae;
+}
+
+input[type=button]:focus { 
+	outline: none;
+}
+
+/* MAIN */
+
+main {
+	width: 527px;
+	height: 628px;
+	border-radius: 3px;
+	background: linear-gradient(to bottom, #e5e7e8, #93a7b0);
+	margin: 14px 0 0 6px;
+}
+
+.product {
+	width: 140px;
+	text-align: center;
+	margin:15px 0 0px 22px;
+}
+	
+.product-title {
+	color: #206988;
+	font-size: 15px;
+	letter-spacing: -0.2px;
+	font-weight: bold;
+}
+
+.product-subtitle {
+	color: #1f2528;
+	font-size: 13px;
+	letter-spacing: -0.1px;
+	margin-left: 6px;
+}
+
+.product div {
+	background-color: #fff;
+	width: 138px;
+	height: 127px;
+	border: 1px solid #a4aeb1;
+	border-radius: 10px;
+	margin-top: -4px;
+}
+
+.product div img {
+	margin-top: 4px;
+}
+
+.row {
+	margin-top: 25px;
+}
+
+.product-price, .product-price span {
+	color: #114165;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.product-price {
+	font-size: 17px;
+	margin: 3px 0 0 13px;
+}
+
+.product-price span {
+	font-size: 13px;
+	vertical-align: unset;
+	margin-left: 5px;
+}
+
+.wrapper >  img {
+	display: block;
+	margin: 37px auto 25px auto;
+}
+
+/* FOOTER */
+
+footer {
+	background: #213a4d;
+	height: 99px;
+	border: 1px solid #242a3c;
+	border-radius: 2px;
+	text-align: center;
+}
+
+footer li {
+	margin: 9px 12px 0 7px;
+	letter-spacing: -0.3px;
+}
+	
+footer a {
+	color: #bec6c9;
+	font-size: 13px;
+}
+
+footer a:hover {
+	color: #52abcb;
+}
+
+footer li:nth-child(-n+3)::after {
+	content: "";
+	width: 2px;
+	height: 11px;
+	background: #8d989f;
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 12px;
+}
+	
+footer span {
+	display: block;
+	margin-top: 15px;
+	font-size: 10px;
+	color: #7f4740;
+	letter-spacing: 0.2px;
+}
