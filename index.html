@@ -19,9 +19,9 @@
 					<div class="login">
 						<img src="img/header/login-logo.png">
 						
-						<form>
-							<input type="text" placeholder="логин">
-							<input type="text" placeholder="пароль">
+						<form action="">
+							<input type="text" name="login" placeholder="логин">
+							<input type="text" name="password" placeholder="пароль">
 						</form>
 						
 						<a href="#">вход</a>
@@ -64,43 +64,43 @@
 						
 						<ul>
 							<li class="find-select">Марка <span>авто:</span></li>
-							<li class="find-select">Модель <br><span>автомобиля:</span></li>
-							<li class="find-select">Год выпуска <br><span>автомобиля:</span></li>
+							<li class="find-select">Модель <span>автомобиля:</span></li>
+							<li class="find-select">Год выпуска <span>автомобиля:</span></li>
 							<li class="find-select">Комплектация:</li>
 						</ul>
 							
 						<div>	
-							<select>
+							<select name="disk-brand">
 								<option></option>
-								<option>BMW</option>
-								<option>Все остальные</option>
+								<option value="BMW">BMW</option>
+								<option value="other">Все остальные</option>
 							</select>
-							<select>
+							<select  name="disk-model">
 							</select>
-							<select>
+							<select name="disk-year">
 							</select>
-							<select>
+							<select name="disk-equipment">
 							</select>
 						</div>	
 					
 						<ul>
 							<li class="find-select">Марка <span>авто:</span></li>
-							<li class="find-select">Модель <br><span>автомобиля:</span></li>
-							<li class="find-select">Год выпуска <br><span>автомобиля:</span></li>
+							<li class="find-select">Модель <span>автомобиля:</span></li>
+							<li class="find-select">Год выпуска <span>автомобиля:</span></li>
 							<li class="find-select">Комплектация:</li>
 						</ul>
 							
 						<div>	
-							<select>
+							<select name="tire-brand">
 								<option></option>
-								<option>BMW</option>
-								<option>Все остальные</option>
+								<option value="BMW">BMW</option>
+								<option value="other">Все остальные</option>
 							</select>
-							<select>
+							<select  name="tire-model">
 							</select>
-							<select>
+							<select name="tire-year">
 							</select>
-							<select>
+							<select name="tire-equipment">
 							</select>
 						</div>	
 						
@@ -115,20 +115,20 @@
 						
 						<div>
 							<span>Размер:</span>
-							<select>	<option>145</option>	</select>
+							<select name="tire-size">	<option value="145">145</option>	</select>
 							/
-							<select></select>
+							<select name="tire-size-2"></select>
 						</div>
 						
 						<span>R</span>
-						<select>	<option>12</option>	</select></br>
+						<select name="tire-radius">	<option value="12">12</option>	</select>
 						
 						
-						<span>Сезон:</span>
+						<span class="season">Сезон:</span>
 						<div>
-							<label><input type="checkbox">лето</label>
-							<label><input type="checkbox">зима</label>
-							<label><input type="checkbox">всесез</label>
+							<label><input type="checkbox" name="summer">лето</label>
+							<label><input type="checkbox" name="winter">зима</label>
+							<label><input type="checkbox" name="all-season">всесез</label>
 						</div>
 						
 						<div  class="search">
@@ -142,33 +142,33 @@
 						
 						<ul>
 							<li>Диаметр <span>диска:</span></li>
-							<li>Количество</br> <span>крепёжных отверстий:</span></li>
-							<li>Диаметр</br> <span>расположения крепёжных отверстий:</span></li>
+							<li>Количество <span>крепёжных отверстий:</span></li>
+							<li>Диаметр <span>расположения крепёжных отверстий:</span></li>
 						</ul>
 						
 						<div class="disk-select">
-							<select>
-								<option>14</option>
+							<select name="disk-diameter">
+								<option value="14">14</option>
 							</select>
-							<select>
-								<option>3</option>
+							<select name="number">
+								<option value="3">3</option>
 							</select>
-							<select>
-								<option>12</option>
+							<select name="diameter">
+								<option value="12">12</option>
 							</select>
 						</div>
 						
 						<div class="disk-select-sub">
-							<span>ДЦО </br> <span>(диаметр центрального отверстия):</span></span>
+							<span>ДЦО  <span>(диаметр центрального отверстия):</span></span>
 							
-							<select>
-								<option>12</option>
+							<select name="hole-diameter">
+								<option value="12">12</option>
 							</select>
 								
-							<span>ЕТ </br> <span>(вылет диска):</span></span>
+							<span>ЕТ  <span>(вылет диска):</span></span>
 							
-							<select>
-								<option>12</option>
+							<select name="ET">
+								<option value="12">12</option>
 							</select>
 						</div>	
 							
@@ -319,17 +319,15 @@
 							<span>шины</span>
 						</div>
 						
-						
+	
 							<label><input type="checkbox">Бренд 1</label>
 							<label><input type="checkbox">Бренд 2</label>
 							<label><input type="checkbox">Бренд 3</label>
-						
 						
 						<div class="brand-item">
 							<div></div>
 							<span>диски</span>
 						</div>
-						
 						
 							<label><input type="checkbox">Бренд 1</label>
 							<label><input type="checkbox">Бренд 2</label>
@@ -352,8 +350,7 @@
 					
 					<span>Создание сайта &#169; Global Vision</span>
 				</footer>
-				
 			</div>
 		</div>
 	</body>
-</html>				
+</html>

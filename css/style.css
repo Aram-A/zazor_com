@@ -1,7 +1,11 @@
 /* FONTS */
 
-.tel span, .basket, .find-select, .search, .product-price, .product-price span, footer {
+body {
 	font-family: Arial, sans-serif;
+}
+
+.wrapper .find-title, .find-subtitle {
+	font-family: Arial Black, sans-serif;
 }
 
 nav a, aside span, aside li,aside label, .product-title, .product-subtitle, .login,
@@ -9,14 +13,9 @@ nav a, aside span, aside li,aside label, .product-title, .product-subtitle, .log
 	font-family: Lucida Sans Unicode, sans-serif;
 }
 
-.wrapper .find-title, .find-subtitle  {
-	font-family: Arial Black, sans-serif;
-}
-
 /*---------------------*/
 
-.tel, span, .login, .nav, form,ul, nav li,.basket, .find-car, .find-tire, .find-disk,.find-car div, 
-.find-disk div, aside, main, .catalog-item div, .brand-item div, .product, footer li, .login a  {
+span, form, ul, nav li, aside, main  {
 	display: inline-block;
 	vertical-align: top;
 }
@@ -37,6 +36,15 @@ label {
 	display: block;
 }
 
+select {
+	height: 17px;
+	border-top: 2px solid #b0b0b0;
+	border-left: 2px solid #b0b0b0;
+	border-right: 1px solid #c3c3c3;
+	border-bottom: #fff;
+	font-size: 11px;
+}
+
 /* WRAPPER */
 
 .background {
@@ -53,6 +61,11 @@ label {
 header > img  {
 	width: 909px;
 	height: 237px;
+}
+
+.tel {
+	display: inline-block;
+	vertical-align: top;
 }
 
 .tel img {
@@ -73,6 +86,8 @@ header > img  {
 	background: linear-gradient(to bottom, #206988,#114165 59%,#0c3256);
 	box-shadow: 1.5px 2.598px 3px 0px rgb( 150, 150, 150 );
 	border-radius: 4px;
+	display: inline-block;
+	vertical-align: top;
 }
 	
 .login img {
@@ -96,6 +111,8 @@ header > img  {
 	font-size: 11px;
 	margin: 8px 5px 0 0;
 	letter-spacing: -0.2px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .login a:nth-child(3)::after {
@@ -123,12 +140,13 @@ header > img  {
 	border-radius: 10px;
 	margin-top: 19px;
 	box-shadow: 1px 2px 1px #dde1e2;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .nav img {
 	margin: 2px -5px 0 9px;
 }
-
 
 /* NAV */
 
@@ -181,6 +199,11 @@ nav a:hover {
 	background: linear-gradient(to bottom, #206988, #114165 59%, #0c3256 100%);
 }
 
+.basket {
+	display: inline-block;
+	vertical-align: top;
+}
+
 .basket img {
 	margin: 7px 0 0 57px;
 }
@@ -212,6 +235,8 @@ nav a:hover {
 	border: 1px solid #9c9c9d;
 	border-radius: 18px;
 	box-shadow: 2.5px 3.4px 5px 0px rgba( 150, 150, 150,0.75);
+	display: inline-block;
+	vertical-align: top;
 }
 
 .find-car {
@@ -264,6 +289,7 @@ nav a:hover {
 .find-disk .find-title {
 	margin: 4px 0 0 9px;
 	letter-spacing: 0.8px;
+	display: block;
 }
 
 .find-car ul {
@@ -273,13 +299,12 @@ nav a:hover {
 .find-select, .find-tire span, .find-disk li {
 	font-size: 10px;
 	color: #000;
-letter-spacing: 0.4px;
+	letter-spacing: 0.4px;
 }
 
 .find-select span {
 	font-size: 9px;
 	color: #77858b;
-	vertical-align: middle;
 }
 
 .find-select:first-child {
@@ -291,11 +316,11 @@ letter-spacing: 0.4px;
 }
 
 .find-select:nth-child(3) {
-	margin-top: 2px;
+	margin-top: 4px;
 }
 
 .find-select:last-child {
-	margin-top: 6px;
+	margin-top: 8px;
 }
 
 .find-select:first-child span {
@@ -303,24 +328,19 @@ letter-spacing: 0.4px;
 }
 
 .find-select:nth-child(2) span {
-	margin-top: -3px;
+	margin-top: -1px;
+	display: block;
 }
 
 .find-select:nth-child(3) span {
-	margin-top: -3px;
+	margin-top: -1px;
+	display: block;
 }
 
 .find-car div {
 	width: 102px;
-}
-
-select {
-	height: 17px;
-	border-top: 2px solid #b0b0b0;
-	border-left: 2px solid #b0b0b0;
-	border-right: 1px solid #c3c3c3;
-	border-bottom: #fff;
-	font-size: 11px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .find-car select {
@@ -350,11 +370,12 @@ select {
 	width: 44px;
 }
 
-.find-tire span {
+.find-tire .season {
 	margin: 6px 0 0 13px;
+	display: block;
 }
 
-.find-tire div:nth-child(7) {
+.find-tire div:nth-child(6) {
 	margin: -9px 0px 0 54px;
 }
 
@@ -370,7 +391,7 @@ select {
 
 .find-disk ul {
 	width: 87px;
-	margin: 25px 0 0 -99px;
+	margin: 9px 0 0 14px;
 }
 
 .find-disk li span {
@@ -386,7 +407,10 @@ select {
 
 .disk-select {
 	width: 60px;
-	margin-top: 21px;
+	margin-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+	position: relative;
 }
 
 .find-disk select {
@@ -400,11 +424,12 @@ select {
 
 .disk-select:after {
 	content: "";
-	width: 1px;
-	height: 106px;
-	background: #bdc6ca;
-	margin: -96px 0 0 69px;
-	position: absolute;
+    width: 1px;
+    height: 106px;
+    background: #bdc6ca;
+    position: absolute;
+    top: -16px;
+    left: 69px;
 }
 
 .find-disk span {
@@ -420,8 +445,9 @@ select {
 }
 
 .disk-select-sub {
-	margin: 7px 0 0 15px;
-	width: 80px;
+    margin: -9px 0 0 15px;
+    width: 80px;
+    display: inline-block;
 }
 
 .disk-select-sub select:nth-child(2) {
@@ -514,6 +540,8 @@ select {
 	border: 5px solid #114165;
 	border-radius: 13px;
 	margin: 2px 0 0 4px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .catalog-item span {
@@ -524,14 +552,11 @@ select {
 	margin:	6px 0 0 -1px;
 }
 
-
-
 .catalog-item span, .brand-item span {
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: -0.6px;
 }
-
 
 aside li {
 	list-style-type: circle;
@@ -627,6 +652,8 @@ main {
 	width: 140px;
 	text-align: center;
 	margin:15px 0 0px 22px;
+	display: inline-block;
+	vertical-align: top;
 }
 	
 .product-title {
@@ -695,6 +722,9 @@ footer {
 footer li {
 	margin: 9px 12px 0 7px;
 	letter-spacing: -0.3px;
+	display: inline-block;
+	vertical-align: top;
+	
 }
 	
 footer a {
@@ -706,7 +736,7 @@ footer a:hover {
 	color: #52abcb;
 }
 
-footer li:nth-child(-n+3)::after {
+footer li:not(:last-child)::after {
 	content: "";
 	width: 2px;
 	height: 11px;
